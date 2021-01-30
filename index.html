@@ -1,205 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/utilities.css">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Welcome to EdgeLedger</title>
-</head>
-<body id="home">
-  <header class="hero">
-    <div class="navbar" id="navbar">
-      <h1 class="logo">
-        <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger
-      </h1>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#cases">Cases</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="content">
-      <h1>The Sky is The Limit</h1>
-      <p>We provide world class financial assistance</p>
-      <a href="#about" class="btn"><i class="fas fa-chevron-right"></i> Read More</a>
-    </div>
-  </header>
-
-  <main>
-    <!-- About: Icons -->
-    <section id="about" class="icons bg-light">
-      <div class="flex-items">
-        <div>
-          <i class="fas fa-university fa-2x"></i>
-          <div>
-            <h3>Investment Banking</h3>
-            <p>Invesments made easy because we allenjoy simplicity!</p>
-          </div>
-        </div>
-        <div>
-          <i class="fas fa-book-reader fa-2x"></i>
-          <div>
-            <h3>Portfolio Manager</h3>
-            <p>Real people that care about your future.</p>
-          </div>
-        </div>
-        <div>
-          <i class="fas fa-pencil-alt fa-2x"></i>
-          <div>
-            <h3>Tax & Custodial</h3>
-            <p>Leave the tough stuff up to us!</p>
-          </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Welcome to EdgeLedger</title>
+  </head>
+  <body id="home">
+    <header class="hero">
+      <div class="navbar top" id="navbar">
+        <h1 class="logo">
+          <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span
+          >Ledger
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#cases">Cases</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-    </section>
 
-    <!-- About:Solutions -->
-    <section class="solutions flex-columns">
-      <div class="row">
-        <div class="column">
-          <div class="column-1">
-            <img src="images/home/people.jpg" alt="">
-          </div>
-        </div>
-        <div class="column">
-          <div class="column-2 bg-primary">
-            <h4>What you are looking for</h4>
-            <h2>We provide bespoke solutions</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio aut voluptate officiis, quaerat repudiandae tempore nobis expedita itaque quae dignissimos iusto numquam laudantium ut ea aperiam est! Eum, consequuntur perspiciatis.</p>
-            <a href="#" class="btn btn-outline">
-              <i class="fas fa-chevron"></i> 
-              Read More
-            </a>
-          </div>
-        </div>
+      <div class="content">
+        <h1>The Sky is The Limit</h1>
+        <p>We provide world class financial assistance</p>
+        <a href="#about" class="btn"
+          ><i class="fas fa-chevron-right"></i> Read More</a
+        >
       </div>
-    </section>
+    </header>
 
-    <!-- Cases -->
+    <main>
+      <!-- About: Icons -->
+      <section id="about" class="icons bg-light">
+        <div class="flex-items">
+          <div>
+            <i class="fas fa-university fa-2x"></i>
+            <div>
+              <h3>Investment Banking</h3>
+              <p>Invesments made easy because we allenjoy simplicity!</p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-book-reader fa-2x"></i>
+            <div>
+              <h3>Portfolio Manager</h3>
+              <p>Real people that care about your future.</p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-pencil-alt fa-2x"></i>
+            <div>
+              <h3>Tax & Custodial</h3>
+              <p>Leave the tough stuff up to us!</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <section id="cases" class="cases flex-grid section-padding">
-      <header class="section-header">
-        <h4>This is what we do</h4>
-        <h2>Business cases</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos!</p>
-      </header>
+      <!-- About:Solutions -->
+      <section class="solutions flex-columns">
         <div class="row">
           <div class="column">
-            <img src="images/cases/cases1.jpg" alt="">
-            <img src="images/cases/cases2.jpg" alt="">
+            <div class="column-1">
+              <img src="images/home/people.jpg" alt="" />
+            </div>
           </div>
           <div class="column">
-            <img src="images/cases/cases3.jpg" alt="">
-            <img src="images/cases/cases4.jpg" alt="">
-          </div>
-          <div class="column">
-            <img src="images/cases/cases5.jpg" alt="">
-            <img src="images/cases/cases6.jpg" alt="">
-          </div>
-          <div class="column">
-            <img src="images/cases/cases7.jpg" alt="">
-            <img src="images/cases/cases8.jpg" alt="">
+            <div class="column-2 bg-primary">
+              <h4>What you are looking for</h4>
+              <h2>We provide bespoke solutions</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+                aut voluptate officiis, quaerat repudiandae tempore nobis
+                expedita itaque quae dignissimos iusto numquam laudantium ut ea
+                aperiam est! Eum, consequuntur perspiciatis.
+              </p>
+              <a href="#" class="btn btn-outline">
+                <i class="fas fa-chevron"></i>
+                Read More
+              </a>
+            </div>
           </div>
         </div>
-    </section>
+      </section>
 
-    <!-- Blog -->
-    <section id="blog" class="blog flex-columns flex-reverse">
-      <div class="row">
-        <div class="column">
-          <div class="column-1">
-            <img src="images/home/blog.jpg" alt="">
+      <!-- Cases -->
+
+      <section id="cases" class="cases flex-grid section-padding">
+        <header class="section-header">
+          <h4>This is what we do</h4>
+          <h2>Business cases</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            dignissimos!
+          </p>
+        </header>
+        <div class="row">
+          <div class="column">
+            <a
+              href="images/cases/cases1.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            dignissimos!"
+            >
+              <img src="images/cases/cases1.jpg" alt="" />
+            </a>
+            <a
+              href="images/cases/cases2.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            dignissimos!"
+            >
+              <img src="images/cases/cases2.jpg" alt="" />
+            </a>
           </div>
-        </div>
-        <div class="column">
-          <div class="column-2 bg-primary">
-            <h4>Jan 25, 2020</h4>
-            <h2>Blog One</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio aut voluptate officiis, quaerat repudiandae tempore nobis expedita itaque quae dignissimos iusto numquam laudantium ut ea aperiam est! Eum, consequuntur perspiciatis.</p>
-            <a href="blog.html" class="btn btn-outline">
-              <i class="fas fa-chevron"></i> 
-              Read More
+          <div class="column">
+            <a
+              href="images/cases/cases3.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            dignissimos!"
+            >
+              <img src="images/cases/cases3.jpg" alt="" />
+            </a>
+            <a
+              href="images/cases/cases4.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            dignissimos!"
+            >
+              <img src="images/cases/cases4.jpg" alt="" />
+            </a>
+          </div>
+          <div class="column">
+            <a
+              href="images/cases/cases5.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            dignissimos!"
+            >
+              <img src="images/cases/cases5.jpg" alt="" />
+            </a>
+            <a
+              href="images/cases/cases6.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            dignissimos!"
+            >
+              <img src="images/cases/cases6.jpg" alt="" />
+            </a>
+          </div>
+          <div class="column">
+            <a
+              href="images/cases/cases7.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            dignissimos!"
+            >
+              <img src="images/cases/cases7.jpg" alt="" />
+            </a>
+            <a
+              href="images/cases/cases8.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            dignissimos!"
+            >
+              <img src="images/cases/cases8.jpg" alt="" />
             </a>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-  <!-- Team -->
-
-  <section id="team" class="team section-padding">
-    <header class="section-header">
-      <h4>Who we are</h4>
-      <h2>Professional Team</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos!</p>
-    </header>
-      <div class="flex-items">
-        <div>
-          <img src="images/team/person1.jpg" alt="">
-          <h4>John Doe</h4>
-          <p>President</p>
-        </div>
-        <div>
-          <img src="images/team/person2.jpg" alt="">
-          <h4>Samantha Olaf</h4>
-          <p>Vice President</p>
-        </div>
-        <div>
-          <img src="images/team/person3.jpg" alt="">
-          <h4>Jerry Gallup</h4>
-          <p>Market Head</p>
-        </div>
-      </div>
-    
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="contact flex-columns">
-    <div class="row">
-      <div class="column">
-        <div class="column-1">
-          <img src="images/home/contact.jpg" alt="">
-        </div>
-      </div>
-      <div class="column">
-        <div class="column-2 bg-light">
-          <h2>Request Callback</h2>
-          <form action="" class="callback-form">
-            <div class="form-control">
-              <label for="name"></label>
-              <input type="text" name="name" id="name" placeholder="name">
+      <!-- Blog -->
+      <section id="blog" class="blog flex-columns flex-reverse">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="images/home/blog.jpg" alt="" />
             </div>
-            <div class="form-control">
-              <label for="email"></label>
-              <input type="email" name="email" id="email" placeholder="Enter email">
+          </div>
+          <div class="column">
+            <div class="column-2 bg-primary">
+              <h4>Jan 25, 2020</h4>
+              <h2>Blog One</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
+                aut voluptate officiis, quaerat repudiandae tempore nobis
+                expedita itaque quae dignissimos iusto numquam laudantium ut ea
+                aperiam est! Eum, consequuntur perspiciatis.
+              </p>
+              <a href="blog.html" class="btn btn-outline">
+                <i class="fas fa-chevron"></i>
+                Read More
+              </a>
             </div>
-            <div class="form-control">
-              <label for="phone"></label>
-              <input type="text" name="phone" id="phone" placeholder="Enter phone">
-            </div>
-            <input type="submit" value="send" id="submit" class="btn">
-          </form>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
-</main>
+      </section>
 
-<footer class="footer bg-dark">
-  <div class="social">
-    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-    <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-    <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-  </div>
-  <p>Copyright &copy; 2020 EdgeLedger</p>
-</footer>
-</body>
+      <!-- Team -->
+
+      <section id="team" class="team section-padding">
+        <header class="section-header">
+          <h4>Who we are</h4>
+          <h2>Professional Team</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            dignissimos!
+          </p>
+        </header>
+        <div class="flex-items">
+          <div>
+            <img src="images/team/person1.jpg" alt="" />
+            <h4>John Doe</h4>
+            <p>President</p>
+          </div>
+          <div>
+            <img src="images/team/person2.jpg" alt="" />
+            <h4>Samantha Olaf</h4>
+            <p>Vice President</p>
+          </div>
+          <div>
+            <img src="images/team/person3.jpg" alt="" />
+            <h4>Jerry Gallup</h4>
+            <p>Market Head</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="images/home/contact.jpg" alt="" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-light">
+              <h2>Request Callback</h2>
+              <form action="process.php" class="callback-form" method="POST">
+                <div class="form-control">
+                  <label for="name"></label>
+                  <input type="text" name="name" id="name" placeholder="name" />
+                </div>
+                <div class="form-control">
+                  <label for="email"></label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="phone"></label>
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="Enter phone"
+                  />
+                </div>
+                <input type="submit" value="send" id="submit" class="btn" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-dark">
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+      <p>Copyright &copy; 2020 EdgeLedger</p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/lightbox.min.js"></script>
+    <script>
+      const navbar = document.getElementById("navbar");
+      let scrolled = false;
+
+      // when we start scrolling
+      window.onscroll = function () {
+        //check where we are on the page
+        //If we scroll past 100 pixels remove class top
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+          if (!scrolled) {
+            //if we start scrolling, move along Y axis (pulls navbar up)
+            navbar.style.transform = "translateY(-70px)";
+          }
+          // setTimeOut takes in a function, and takes a second parameter, the time it takes to run the function
+          setTimeout(function () {
+            navbar.style.transform = "translateY(0)";
+            scrolled = true;
+          }, 200);
+        } else {
+          //adds top class if less than 100 px
+          navbar.classList.add("top");
+          scrolled = false;
+        }
+      };
+
+      // added jQuery
+      // grabs nav bar and checks for a click
+      $("#navbar a").on("click", function (e) {
+        if (this.hash !== "") {
+          e.preventDefault();
+
+          // looks at the hash
+          const hash = this.hash;
+
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800
+          );
+        }
+      });
+    </script>
+  </body>
 </html>
